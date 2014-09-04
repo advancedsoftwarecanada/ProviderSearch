@@ -1,0 +1,55 @@
+
+.searchcontainer h3 {color:#FFF !important; text-align:center; padding-top:4px;}
+.searchcontainer p  {color:#FFF !important; text-align:center;}
+.searchcontainer input {display:inline-block !important; margin:0 auto !important; width:80% !important; text-align:center !important;}
+
+
+#allsearch {padding-top:40px; padding-bottom:40px; margin-bottom:10px;
+
+background: #207ce5; /* Old browsers */
+background: -moz-linear-gradient(top, #207ce5 0%, #0d76b6 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#207ce5), color-stop(100%,#0d76b6)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #207ce5 0%,#0d76b6 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #207ce5 0%,#0d76b6 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #207ce5 0%,#0d76b6 100%); /* IE10+ */
+background: linear-gradient(to bottom, #207ce5 0%,#0d76b6 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#207ce5', endColorstr='#0d76b6',GradientType=0 ); /* IE6-9 */
+
+}
+#allsearch .searchbar {font-size:22px; height:30px; text-align:center;}
+#allsearch h1 {color:#FFF; text-align:center; font-size:48px;}
+#allsearch h2 {color:#FFF; text-align:center; font-size:16px;}
+#allsearch .error {border:1px solid #F00; color:#f00;}
+#allsearch .noerror {border:1px solid #0F0; color:#54A854;}
+
+.silentlink {color:#636b75; text-transform:capitalize;}
+.silentlink:hover {color:#636b75}
+
+
+/* Modal Fix 	jQuery(".modal").appendTo($("body")); */
+.z {
+    position: relative;
+    width: 90%;
+    margin: 0 auto 15px;
+}
+.z-1 {
+    z-index: -1;
+    background: orange;
+    color: white;
+}
+.z3 {z-index: 3;}
+
+
+
+/* =============== */
+/* ALL SEARCH MINI */
+/* =============== */
+#allsearch-mini {position:relative; height:190px; background:#047BFD; padding-top:10px; top:10px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+
+#allsearch-mini .searchbar {font-size:16px; height:30px; text-align:center; width:100%; max-width:220px;}
+
+
